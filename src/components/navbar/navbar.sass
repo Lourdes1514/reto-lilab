@@ -1,0 +1,50 @@
+.navbar
+  background : #ffffff
+  img
+    width    : 70%
+    margin   : auto 
+  .barSearchNavbar
+    border        : 1px solid #B2BABB 
+    border-top    : 0 solid black
+    border-left   : 0 solid black
+    border-right  : 0 solid black
+    border-bottom : 2px solid #1ED688
+    border-radius : 2px
+    height        : 28px
+    position      : relative
+    right         : 0
+    margin        : 20px auto
+    width         : 85%
+    .inputNavbar
+      height  : 24px
+      width   : 100%
+      border  : none
+    .iconNavbar
+      font-size : 15px 
+      color     : #777777
+      right     : 5px
+      position  : absolute
+      padding   : 2px
+    *:focus
+      outline  : none
+
+@media (min-width: 400px)
+  .navbar
+    img
+      width : 40%
+    .barSearchNavbar
+      width : 70% 
+
+@media (min-width: 750px) 
+  .navbar
+    img
+      width : 25%
+    .barSearchNavbar
+      width : 60%
+
+@media (min-width: 1200px)
+  .navbar
+    img
+      width : 15% 
+    .barSearchNavbar
+      width : 50%

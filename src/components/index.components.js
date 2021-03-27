@@ -1,0 +1,7 @@
+export  { default as Dashboard}       from './dashboard/dashboard'
+export  { default as Navbar}          from './navbar/navbar'
+export  { default as BtnAddPost}      from './btn-add-post/btn_add_post'
+export  { default as PostPet}         from './post-pet/post_pet'
+export  { default as AddPost}         from './add-post/add_post'
+export  { default as GetAutor}        from './get-autor/get_autor'
+export  { default as GetAutores}      from './get-autores/get_autores'
